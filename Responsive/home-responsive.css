@@ -1,0 +1,73 @@
+@media only screen and ( max-width:600px)
+{
+.secondpage{
+    display: grid;
+}
+
+.Thirpage{
+    display: grid;
+
+}
+.heading3 {
+    /* padding-right: 300px; */
+    font-size: x-large;
+    display: inline;
+}
+.para3{
+    font: caption;
+    padding-top: 10px;
+    
+}
+.des3{
+    font-weight: 50px;
+
+}
+.contenor3{
+    padding-bottom: 12px;
+    padding-left: 18px;
+}
+.leftdiv3{
+    display: contents;
+}
+}
+@media  only screen  and (max-width: 600px){
+
+img#third-cove{
+    height: 300px;
+    width:  400px;
+
+}
+.contenor3{
+    padding-top: 5px;
+}
+}
+    
+@media  only screen  and (max-width: 600px){
+
+img#fourth-cover{
+    height: 300px;
+    width: 400px;
+
+}
+.fourthpage{
+    display: contents;
+
+}
+.div.contentdiv4{
+    padding-top: 20px;
+}
+}
+@media  only screen  and (max-width: 600px){
+
+
+    .sevenpage{
+        display: contents;
+
+    }
+    #sevencont{
+        height: 400px;
+        width: 300px;
+    }
+}
+
+

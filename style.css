@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none; 
+
+}
+.header{
+    background-image: 
+            url('./images/contF.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            height: 100vh;
+}
+.navbar{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+
+
+}
+    .navbar .button {
+        background-color: #edf1ee; /* Green */
+        border: none;
+        color: rgb(15, 14, 14);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 15px;
+        font-weight: bold;
+}
+#color1{
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+.textdiv{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 250px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.centercontent{
+  display: grid;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.icon{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(30, 0, 128);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.searchbar{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+}
+.buttonbar{
+    height: 40px;
+    width: 50px;
+    background-color: green;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.heading{
+    font-size: 50px;
+    color: rgb(242, 239, 239);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 350px;
+    
+}
+.secondpage{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   gap: 30px;
+   padding-top: 20px;
+
+
+}
+.con1{
+    height: 500px;
+    width: 300px;
+    /* background-color: green; */
+
+}
+.imgdiv #con1logo{
+    padding-top: 25px;
+
+}
+.text1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para1{
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.linktext{
+    font-weight: bolder;
+    padding-top: 15px;
+    color: red;
+}
+.con2{
+    height: 500px;
+    width: 300px;
+    /* background-color: rgb(4, 0, 128); */
+    
+}
+.con3{
+    height: 500px;
+    width: 300px;
+    /* background-color: rgb(128, 0, 77); */
+    
+}
+/* Third page style */
+.Thirpage{
+    height: 700px;
+    background-color: rgb(221, 206, 223);
+    display: flex;
+}
+.leftdiv3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 700px;
+    background-color: white;
+}
+.contenor3{
+     /* when need it design it */
+}
+.heading3{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.para3{
+    font-size: small;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.des3{
+    font-family: serif;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    line-height: 16px;
+    
+}
+#btnres{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(214, 44, 44);
+    border: 1px red;
+    border-radius: 15px;
+    color: white;
+    
+
+}
+/* 3 Page Style end */
+
+.fourthpage{
+    height: 700px;
+    background-color: rgb(221, 206, 223);
+    display: flex;
+    gap: 150px;
+
+}
+.righdiv4{
+    height: 600px;
+
+}
+.leftdiv4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.contentdiv4{
+
+}
+/* fifth section design start */
+.fifthsection{
+    background-image: 
+    url('./images/fifth.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.fifthsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.headingdiv{
+    font-weight: 900;
+    color: white;
+    font-size:50px;
+    
+}
+.subheading{
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.paradiv{
+    font-weight: 500;
+    color: white;
+    padding-top: 20px;
+}
+/* Six Page Design */
+#sexpagebgc{
+    background-color: white;
+}
+#Sixcover{
+    padding-top: 10px;
+}
+/* end designing */
+.sevenpage{
+    background-color: rgb(248, 248, 246);
+    height: 1000px;
+
+}
+.headingseven{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.sevenpage{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+text-align: center;
+}
+#sevencont{
+    height: 600px;
+    width: 500px;
+}
+.sevenheading{
+    padding-top: 12px;
+}
+.sevenpara{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#sevenbtn{
+        
+    height: 40px;
+    width: 150px;
+    background-color: rgb(214, 44, 44);
+    border: 1px red;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+
+/* Deesign End */
+.footer{
+    background-color: black;
+    height: 800px;
+}
+.footerheading{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 25px;
+    
+}
+.mainfootercontent{
+    display:flex;
+     justify-content: space-between;
+     gap: 20px;
+     padding-left: 28px;
+     padding-top: 10px;
+
+}
+.footercont1{
+    height: 300px;
+    width: 400px;
+    /* background-color: green; */
+    
+}
+.footercont2{
+    height: 300px;
+    width: 400px;
+    /* background-color: rgb(128, 0, 21); */
+    gap: 20px;
+    
+}.footercont3{
+    height: 300px;
+    width: 400px;
+    /* background-color: rgb(0, 28, 128); */
+    gap: 20px;
+    
+}.footercont4{
+    height: 300px;
+    width: 400px;
+    /* background-color: rgb(153, 156, 153); */
+    gap: 20px;
+    
+}
+ul{
+    
+}
+li{
+    padding: 15px;
+    color: white;
+}
